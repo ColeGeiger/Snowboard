@@ -4,22 +4,29 @@ body {
     line-height: 30px;
     color: maroon;
     background: url("../images/Website background.jpeg");
-    
+    background-size: cover;
+
 }
 
 
+#logocont {
+    margin-left: -235px;
+}
+
+.logoimg1 {
+    height: 50px;
+    padding-top: 10px;
+    border-radius: 50%;
 
 
+}
 
 #mainhead {
-    position: fixed;
     z-index: 99;
     width: 100%;
-    margin: 0 0 30px;
     overflow: auto;
-    color: black;
-    background: white;
     border-bottom: 2px solid;
+
     
 }
 
@@ -44,4 +51,17 @@ nav {
     margin-top: 25px;
 
 }
+
+.navlink {
+    background: url("../images/navlogo.jpeg");
+    background-size: contain;
+    
+}
+
+.container {
+    margin-top: 500px;
+
+}
+
+
 
