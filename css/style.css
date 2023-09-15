@@ -1,3 +1,16 @@
+body {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 15px;
+    line-height: 30px;
+    color: maroon;
+    background: url("../images/Website background.jpeg");
+    
+}
+
+
+
+
+
 #mainhead {
     position: fixed;
     z-index: 99;
@@ -9,3 +22,26 @@
     border-bottom: 2px solid;
     
 }
+
+.headcont {
+    width: 100%;
+    max-width: 960px;
+    margin: 0 auto;
+    clear: both;
+
+}
+
+nav a {
+    display: inline-block;
+    padding-left: 15px;
+    margin-left: 15px;
+    line-height: 15px;
+
+}
+
+nav {
+    float: right;
+    margin-top: 25px;
+
+}
+
